@@ -1,0 +1,23 @@
+{
+    "name": "citus-test/php-benchmark",
+    "description": "PHP benchmark for Citus database",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CitusTest\\": "src/php/"
+        }
+    },
+    "scripts": {
+        "benchmark": "php src/php/benchmark.php"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
