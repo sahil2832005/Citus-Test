@@ -1,6 +1,9 @@
 # Node modules
 node_modules/
 
+# PHP dependencies
+vendor/
+
 # TypeScript output
 dist/
 build/
@@ -30,3 +33,24 @@ Thumbs.db
 
 # Optional OS-specific stuff
 *.swp
+
+# Docker volumes
+docker-volumes/
+
+# Benchmark results
+results/
+benchmarks/
+*.csv
+*.json
+
+# PHP specific
+composer.lock
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS specific
+*.orig
+*~
