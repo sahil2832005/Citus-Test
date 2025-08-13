@@ -459,7 +459,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - **Citus Data** for the amazing distributed PostgreSQL extension
-- **PostgreSQL Community** for the robust database foundation
+- **PostgreSQL Community** for the robust database foundation (Managed Authority Helper)
 - **Docker Community** for containerization capabilities
 - **Open Source Contributors** who make projects like this possible
 
